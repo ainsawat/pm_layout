@@ -1,0 +1,38 @@
+<style>
+		footer { 
+			display: block;
+		}
+		/* div > p {
+			color: red;
+		}
+		 */
+		table.Lay_out{ /*Line table*/
+			border-collapse:separate;
+			
+		}
+		th.Lay_out,td.Lay_out { 
+			width: 70px;
+		}
+		th.HColumn,td.HColumn { 
+			width: 40px;
+		}
+		th.Lay_Space,td.Lay_Space { 
+			width: 10px;
+		}
+		th,td { /* settext to center */
+			text-align: center;
+			
+			
+			
+		}
+		
+		th ,td.HColumn{/* */
+		    background-color:#ff0000; /*Head table bg=Green font=white*/
+		    color: White;
+			text-align: center;
+			vertical-align: middle;
+		}
+		
+		
+		
+		</style>

@@ -1,0 +1,49 @@
+<style>
+		footer { 
+			display: block;
+		}
+		table,thead, th, td { /*Line table*/
+			padding: 1px;
+		   border: 1px solid black;
+		   border-collapse: collapse;
+		}
+		th,td { /* settext to center */
+			text-align: center;
+		}
+		tr:nth-child(even) {background-color: #f2f2f2} /*Hilight row*/
+		td.textLeft{
+			text-align: left;/*set text to left */
+			width=200px;
+		}
+		th {/* */
+		    background-color:#8A2BE2; /*Head table bg=Green font=white*/
+		    color: white;
+			padding: 5px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		th.rotate {
+		  /* Something you can count on */
+		  height: 100px;
+		  white-space: nowrap;
+		  text-align: center;
+		  vertical-align: middle;
+		  width: 1.5em;
+		}
+
+		th.rotate > div {
+		  -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
+		       -o-transform: rotate(-90.0deg);  /* Opera 10.5 */
+		  -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+		             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+		         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+		         margin-left: -10em;
+		         margin-right: -10em;
+		}
+		
+		div.ScollBarX{
+			overflow-x:auto; /*Show scollbar X */
+		
+		}
+		
+		</style>
